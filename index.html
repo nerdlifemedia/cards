@@ -20,11 +20,11 @@ layout: default
                   </div>
                   {% if post.img %}
                   <a href="{{ post.url | prepend: site.baseurl }}">
-                      <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                      <img width="100%" src="{{post.img}}" alt="{{post.title}}">
                   </a>
                   {% else %}
                   <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
+                    <img width="100%" src="{{site.baseurl}}/images/{{post.local-img}}" alt="{{site.title}}">
                   </a>
                   {% endif %}
                   <div class="panel-body"><small>
