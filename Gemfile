@@ -14,4 +14,4 @@ group :jekyll_plugins do
 end
 
 # references to gems
-# jekyll-seo : https://github.com/pmarsceill/jekyll-seo-gem
+# jekyll-seo : https://github.com/pmarsceill/jekyll-seo-gemgi
